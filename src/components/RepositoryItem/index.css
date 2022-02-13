@@ -1,0 +1,44 @@
+.each-repo-container {
+  background-color: #feffc8;
+  width: 100%;
+  margin: 15px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.git-avatar {
+  width: 40%;
+  border-radius: 6px;
+}
+
+.stars-forks-issues-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.stars-forks-issues-image {
+  width: 20px;
+  height: 20px;
+}
+
+.git-repo-name {
+  font-size: 20px;
+  color: #e73959;
+  font-family: 'Bree Serif';
+}
+
+.git-repo-count-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .each-repo-container {
+    width: 30%;
+  }
+}

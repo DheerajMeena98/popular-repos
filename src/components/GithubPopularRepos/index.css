@@ -1,0 +1,44 @@
+.github-popular-repos-bcg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+.popular-main-heading {
+  font-family: 'lobster';
+}
+
+.language-filters-data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  width: 80%;
+  list-style-type: none;
+}
+
+.repos-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+}
+
+.loader {
+  margin-top: 200px;
+  justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .language-filters-data-container {
+    width: 50%;
+  }
+}
